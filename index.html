@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Sameh - Gaming's Kingmaker</title>
+    <style>
+        /* إعدادات عامة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #000428, #004e92);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* الرأس */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            position: relative;
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            color: #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            animation: fadeInDown 2s;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 20px;
+            animation: fadeInUp 2s;
+        }
+
+        @keyframes fadeInDown {
+            0% { opacity: 0; transform: translateY(-50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* قسم المؤثر */
+        .mario-section {
+            padding: 60px 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            margin: 30px auto;
+            max-width: 800px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .mario-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: bounceIn 1.5s;
+        }
+
+        .mario-section p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            animation: slideIn 2s;
+        }
+
+        .mario-section img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            margin-top: 20px;
+            animation: zoomIn 1.5s;
+        }
+
+        @keyframes bounceIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            60% { transform: scale(1.1); opacity: 0.9; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            0% { opacity: 0; transform: translateX(-100px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes zoomIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        /* قسم التذييل */
+        footer {
+            background: rgba(0, 0, 0, 0.9);
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mario Sameh - The Kingmaker</h1>
+    <p>The man who makes every game a legend</p>
+</header>
+
+<section class="mario-section">
+    <h2>About Mario Sameh</h2>
+    <p>
+        Mario Sameh is one of the most influential gamers in the Arab world and beyond. Known for his charismatic personality and unmatched gaming skills, Mario has the unique ability to spotlight any game and turn it into an overnight sensation. 
+    </p>
+    <p>
+        If Mario uploads a video about a game, rest assured that it will become the talk of the town. Developers and gaming companies worldwide have acknowledged his power as a game influencer, and his endorsement guarantees success.
+    </p>
+    <p>
+        His impact is so profound that Mario's followers eagerly await his next recommendation, knowing it will lead them to the next big hit.
+    </p>
+    <img src="https://via.placeholder.com/300" alt="Mario Sameh">
+</section>
+
+<footer>
+    <p>&copy; 2024 Mario Sameh. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
